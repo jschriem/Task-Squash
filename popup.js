@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var ln = links[i];
             var location = ln.href;
             ln.onclick = function () {
-                chrome.tabs.create({active: true, url: "https://github.com/jschriem"});
+                chrome.tabs.create({active: true, url: "https://github.com/jschriem/Task-Squash"});
             };
         })();
     }
