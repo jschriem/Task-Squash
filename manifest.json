@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+
+    "name": "Task Squash",
+    "version": "1.0",
+    "author": "John Schriemer",
+    "description": "To-Do list application",
+    "permissions": ["tabs"],
+
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "icons": {
+      "16": "squash.png"
+    },
+    "background": {
+      "scripts": [ "background.js" ],
+      "persistent": true,
+      "default_icon": "squash.png"
+    }
+}

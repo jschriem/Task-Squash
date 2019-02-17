@@ -1,0 +1,152 @@
+
+body {
+  background-color: #FFC300;
+  color: white;
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+  width: 400px;
+  height: 350px;
+}
+
+/* Thanks to Tholman (https://github.com/tholman/github-corners) for octocat styling*/
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-25deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-25deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
+}
+
+#squash {
+  position: absolute;
+  z-index: -1;
+  right: 225px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#first {
+  margin-top: 20px;
+  letter-spacing: 0.05em;
+  color: #C70039;
+  font-weight: 600;
+}
+
+#second {
+  color: #FF8B00;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+#third {
+  color: #DEA900;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+select {
+  color: white;
+  border: none;
+  background-color:#C70039;
+  border-radius:5px;
+  height: 32px;
+  padding: 20px 20px;
+  align-items: centre;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 35px;
+  background-color: #FF8B00;
+  transition:1s ease-in;
+	  transition-property: font-color;
+}
+
+button:hover{
+	background-color: #DEA900;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+  width: 84%;
+  position: relative;
+	padding: 10px 10px;
+	color: white;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #FF8B00;
+	transition: 1s ease-in;
+}
+
+
+li > button {
+	background: none;
+	color: #00777c;
+	font-weight: 800;
+
+}
+
+input {
+  margin-top: 20px;
+	border-radius: 5px;
+	min-width: 25%;
+	padding: 7px 15px;
+	border: none;
+  font-size: 15px;
+}
+
+
+.done {
+	background: #e8b000;
+	color: #b28700;
+
+}
+
+.delete {
+	display: none;
+}
